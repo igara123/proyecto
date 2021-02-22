@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VANS®</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin="" />
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="contenedor">
+            <nav class="barra1">
+                <a href="#"><img class="icono" src="img/icon.PNG" alt="Vans"></a>
+                <a href="#"><span>search</span></a>
+                <a href="#"><span>store locator</span></a>
+                <a href="#"><span>help</span></a>
+                <a href="#"><span>login</span></a>
+                <a href="#"><span>register</span></a>
+                <a href="cart.html"><span><img src="img/chango.png" alt="carrito"></span></a>
+            </nav>
+
+            <nav class="barra2">
+                <a href="men.html">men</a>
+                <a href="women.html">women</a>
+                <a href="#">kids</a>
+                <a href="#">new arrivals</a>
+                <a href="#">skate</a>
+                <a href="#">latest</a>
+                <a href="#">#HOUSEOFVANS</a>
+                </nav#>
+        </div>
+
+        <div class="contenedor intro">
+            <h1>Vans is old skool</h1>
+            <p>introduced in 1977, the style #36, now know as old skool, was the first vans shoe to feature the iconic
+                sidestripe</p>
+            <button class="btn-header">Discover Now ></button>
+        </div>
+
+    </header>
+
+    <section class="contenedor">
+
+        <h2 class="h2-prod">featured products</h2>
+        <div class="contenedor-anuncios">
+            <div class="anuncio">
+                <img src="img/modelos/1.png" alt="">
+            </div>
+
+            <div class="anuncio">
+                <img src="img/modelos/3.png" alt="">
+            </div>
+
+            <div class="anuncio">
+                <img src="img/modelos/5.png" alt="">
+            </div>
+
+            <div class="anuncio">
+                <img src="img/modelos/7.png" alt="">
+            </div>
+
+            <div class="anuncio">
+                <img src="img/modelos/9.png" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <div class="parallax imgpara">
+        <img src="" alt="">
+    </div>
+
+    <section class="contenedor">
+
+        <h2 class="h2-prod">LATEST VANS NEWS</h2>
+        <div class="contenedor-notas">
+            <div class="notas">
+                <img src="img/nota1.webp" alt="">
+
+                <h4>VANS X FOO FIGHTERS</h4>
+                <p>Vans and Foo Fighters Commemorate 25th Anniversary
+                    of Classic Debut Album with Special Edition Sk8-Hi</p>
+                <a href="#">Read more</a>
+
+            </div>
+
+            <div class="notas">
+                <img src="img/nota4.webp" alt="">
+
+                <h4>AVE PRO BY BEATRICE DOMOND</h4>
+                <p>Vans’ most technically-advanced skate shoe meets classic,
+                    understated design.</p>
+                <a href="#">Read more</a>
+
+            </div>
+
+            <div class="notas">
+                <img src="img/nota3.webp" alt="">
+
+                <h4>HIGH SCHOOL CUSTOM CULTURE</h4>
+                <p>The 2021 Vans Custom Culture high school shoe customization
+                    contest begins soon! Registration opens January 4th.</p>
+                <a href="#">Read more</a>
+
+            </div>
+
+            <div class="notas">
+                <img src="img/nota2.webp" alt="">
+
+                <h4>VANS SHOES "THE VIAJE"</h4>
+                <p>Vans’ Viaje Snowboard Boot Holds Up to Vans Snow Team’s Most
+                    Demanding Riders</p>
+                <a href="#">Read more</a>
+
+            </div>
+
+            <div class="blog">
+                <button class="btn-header">View More</button>
+            </div>
+
+    </section>
+
+    <section class="contenedor">
+
+        <h2 class="store">Our shops</h2>
+
+        <div id="mapid"></div>
+
+    </section>
+    
+
+    <footer class="footer">
+
+        <div class="contenedor ft">
+            <div class="corporate">
+                <h4>CORPORATE INFO</h4>
+                <ul><a href="#">Carrers</a></ul>
+                <ul><a href="#">b2b</a></ul>
+                <ul><a href="#">privacy policy</a></ul>
+                <ul><a href="#">terms & conditions</a></ul>
+                <ul><a href="#">cookies</a></ul>
+            </div>
+
+            <div class="customer">
+                <h4>customer service</h4>
+                <ul><a href="#">faq</a></ul>
+                <ul><a href="#">contact us</a></ul>
+                <ul><a href="#">sizing charts</a></ul>
+            </div>
+
+            <div class="newsletter">
+                <h4>sing up to vans newsletter</h4>
+                <p>subscribe to our newsletter to get latest news about our products, events and sales</p>
+                <input type="mail" class="mail">
+                <button class="btn-send">Send</button>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/map.js"></script>
+</body>
+
+</html>
